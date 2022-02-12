@@ -1,0 +1,58 @@
+/*Start navbar*/
+@media (max-width: 768px) {
+  #childNavbarLinks {
+    background-color: #252525 !important;
+    padding: 0.5rem;
+  }
+}
+
+#mainNavbar {
+  background-color: rgba(37, 37, 37, 0.3);
+}
+
+@media (max-width: 768px) {
+  #mainNavbar {
+    background-color: #252525;
+  }
+}
+
+/*end navbar*/
+/*Start Home Section*/
+.home {
+  min-height: 80vh;
+  background-image: url("../images/desktop/image-hero.jpg") !important;
+  background-position: center;
+  background-size: cover;
+}
+
+/*End Home Section*/
+/*start careers Section*/
+img.interactive {
+  max-width: 100%;
+}
+
+.The_leader {
+  position: absolute;
+  right: 8%;
+  top: 40%;
+}
+
+@media (max-width: 768px) {
+  .The_leader {
+    position: static;
+  }
+}
+
+/*end careers Section*/
+/*start events Section*/
+.events,
+.careers {
+  min-height: 100vh;
+}
+
+footer {
+  min-height: 50vh;
+}
+
+/*end events Section*/
+/*# sourceMappingURL=styles.css.map */
